@@ -1,4 +1,5 @@
 jQuery(document).ready(function ($) {
+	
 	$("#form_calc").change(function() {
 		
 		var totalPrice   = 0,
@@ -10,9 +11,10 @@ jQuery(document).ready(function ($) {
 				totalPrice += parseInt($(this).val());
             }
         });
-
+		// totalSale = totalPrice * 0.10 ;
 		$("#price span").text(totalPrice);	
 		
-	});	
+	});
+	
 });
 
