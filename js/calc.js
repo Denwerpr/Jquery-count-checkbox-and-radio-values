@@ -11,7 +11,7 @@ jQuery(document).ready(function ($) {
 				totalPrice += parseInt($(this).val());
             }
         });
-		// totalSale = totalPrice * 0.10 ;
+
 		$("#price span").text(totalPrice);	
 		
 	});
